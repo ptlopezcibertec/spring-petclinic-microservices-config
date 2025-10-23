@@ -83,7 +83,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/petclinic?allowPublicKeyRetrieval=true&useSSL=false
     username: root
-    password: petclinic
+    password: mysql
   sql:
     init:
       schema-locations: classpath*:db/mysql/schema.sql
